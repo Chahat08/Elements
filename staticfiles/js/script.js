@@ -22,11 +22,11 @@ new TypeIt("#element", {
     speed: 70,
     loop: true
 })
-    .type("1+ years of experience as Infosys Systems Engineer.", { delay: 2000 })
+    .type("2022 Summer Analyst at Goldman Sachs, Bangalore.", { delay: 2000 })
     .delete(null, { delay: 500 })
-    .type("1+ years of client-side exposure with Capital Group.", { delay: 2000 })
+    .type("9 months research experience with Nottingham Trent University & Panjab University.", { delay: 2000 })
     .delete (null, { delay: 500 })
-    .type("1+ years in working as Salesforce Platform Developer.", { delay: 2000 })
+    .type("Computer Science undergraduate with current 8.93 CGPA.", { delay: 2000 })
     .delete(null, { delay: 500 })
     .type("Multiple personal projects ranging across various domains.", { delay: 2000 })
     .go();
@@ -35,13 +35,14 @@ new TypeIt("#expElement", {
     speed: 70,
     loop: true
 })
-    .type("1+ years of experience as Infosys Systems Engineer.", { delay: 2000 })
+    .type("2022 Summer Analyst at Goldman Sachs, Bangalore.", { delay: 2000 })
     .delete(null, { delay: 500 })
-    .type("1+ years of client-side exposure with Capital Group.", { delay: 2000 })
+    .type("9 months research experience with Nottingham Trent University & Panjab University.", { delay: 2000 })
     .delete(null, { delay: 500 })
-    .type("1+ years in working as Salesforce Platform Developer.", { delay: 2000 })
+    .type("Computer Science undergraduate with current 8.93 CGPA.", { delay: 2000 })
     .delete(null, { delay: 500 })
-    .type("8.0+ CGPA throughout B.E.", { delay: 2000 })
+    .type("Multiple personal projects ranging across various domains.", { delay: 2000 })
     .go();
 
-// new magicMouse();
+
+new magicMouse();
